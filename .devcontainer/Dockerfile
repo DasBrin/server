@@ -83,7 +83,7 @@ RUN useradd -ms /bin/bash ${APACHE_RUN_USER} && \
 USER devcontainer
 
 # NVM
-RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-RUN bash --login -i -c 'source /home/devcontainer/.bashrc && nvm install 16'
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+RUN bash --login -i -c 'source /home/devcontainer/.bashrc && nvm install 20'
 
 WORKDIR /var/www/html
