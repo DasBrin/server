@@ -55,10 +55,7 @@
     </UndefinedGlobalVariable>
   </file>
   <file src="apps/dav/appinfo/v1/publicwebdav.php">
-    <InternalMethod>
-      <code><![CDATA[\OC\Files\Filesystem::logWarningWhenAddingStorageWrapper($previousLog)]]></code>
-      <code><![CDATA[\OC\Files\Filesystem::logWarningWhenAddingStorageWrapper(false)]]></code>
-    </InternalMethod>
+    <InternalMethod/>
     <UndefinedGlobalVariable>
       <code><![CDATA[$baseuri]]></code>
     </UndefinedGlobalVariable>
@@ -406,9 +403,7 @@
     <TooManyArguments>
       <code><![CDATA[new PreconditionFailed('Cannot filter by non-existing tag', 0, $e)]]></code>
     </TooManyArguments>
-    <UndefinedClass>
-      <code><![CDATA[\OCA\Circles\Api\v1\Circles]]></code>
-    </UndefinedClass>
+    <UndefinedClass/>
     <UndefinedInterfaceMethod>
       <code><![CDATA[getPath]]></code>
     </UndefinedInterfaceMethod>
@@ -447,15 +442,10 @@
       <code><![CDATA[null]]></code>
       <code><![CDATA[null]]></code>
     </NullableReturnStatement>
-    <UndefinedClass>
-      <code><![CDATA[\OCA\Circles\Api\v1\Circles]]></code>
-      <code><![CDATA[\OCA\Circles\Api\v1\Circles]]></code>
-    </UndefinedClass>
+    <UndefinedClass/>
   </file>
   <file src="apps/dav/lib/Connector/Sabre/ServerFactory.php">
-    <TooManyArguments>
-      <code><![CDATA[new \OCA\DAV\Connector\Sabre\QuotaPlugin($view, true)]]></code>
-    </TooManyArguments>
+    <TooManyArguments/>
   </file>
   <file src="apps/dav/lib/Connector/Sabre/ShareTypeList.php">
     <InvalidArgument>
@@ -683,9 +673,7 @@
     </InvalidThrow>
   </file>
   <file src="apps/encryption/lib/Session.php">
-    <TooManyArguments>
-      <code><![CDATA[new Exceptions\PrivateKeyMissingException('please try to log-out and log-in again', 0)]]></code>
-    </TooManyArguments>
+    <TooManyArguments/>
   </file>
   <file src="apps/encryption/lib/Util.php">
     <LessSpecificReturnStatement>
@@ -870,10 +858,7 @@
       <code><![CDATA[(int)$code]]></code>
       <code><![CDATA[(int)$code]]></code>
     </RedundantCast>
-    <UndefinedClass>
-      <code><![CDATA[\OCA\Circles\Api\v1\Circles]]></code>
-      <code><![CDATA[\OCA\Circles\Api\v1\Circles]]></code>
-    </UndefinedClass>
+    <UndefinedClass/>
     <UndefinedDocblockClass>
       <code><![CDATA[$this->getRoomShareHelper()]]></code>
       <code><![CDATA[$this->getRoomShareHelper()]]></code>
