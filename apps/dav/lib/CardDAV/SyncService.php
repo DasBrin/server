@@ -126,7 +126,7 @@ class SyncService {
 			'base_uri' => $url,
 			'body' => $this->buildSyncCollectionRequestBody($syncToken),
 			'headers' => ['Content-Type' => 'application/xml'],
-			'timeout' => $this->config->getSystemValueInt('carddav_sync_request_timeout', 30)
+			'timeout' => $this->config->getSystemValueInt('carddav_sync_request_timeout', IClient::DEFAULT_REQUEST_TIMEOUT)
 		];
 
 		$response = $client->request(
